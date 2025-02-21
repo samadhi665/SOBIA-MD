@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "enter your session",
+    SESSION_ID: process.env.SESSION_ID || "9Lc3VBbL#EMEkNJlGFLxgSNaDQqmDgq39VcIKN4AIUXtpBk6I8wc",
     CAPTION: process.env.CAPTION || "POWERED BY SOBIA BUTT",
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
     AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "true",
@@ -23,7 +23,7 @@ module.exports = {
     FAKE_TYPING: process.env.FAKE_TYPING || "false",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
-    AUTO_REACT: process.env.AUTO_REACT || "true",
+    AUTO_REACT: process.env.AUTO_REACT || "false",
     HEART_REACT: process.env.HEART_REACT || "true",
     DEV: process.env.DEV || "923096287432",//replace with your whatsapp number        
     ANTI_VV: process.env.ANTI_VV || "true",// true for anti once view 
